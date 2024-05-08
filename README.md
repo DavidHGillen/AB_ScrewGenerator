@@ -10,11 +10,30 @@ David "Angry Beaver" Gillen
 
 # Usage
 
-## How to install
-Grab the .sbar file and import it to your substance application. I hope to do some stuff with releases and the like, but this is an initial commit. If you don't have any Substance applications then you might be able to use it with a Substance plugin for a game engine like Unreal or Unity.
+## How to install as a user
+Grab the .sbar file and import it to your substance application. I hope to do some stuff with releases and the like, but this is an initial commit.
+If you don't have any Substance applications then you might be able to use it with a Substance plugin for a game engine like Unreal or Unity.
 
-## How to modify
-Grab the .sbs file from the folder and do as you will.
+## Quick How-to
+* Open your Substance Painter project
+* Import the new resource to your project/session/library
+![image info](https://raw.githubusercontent.com/DavidHGillen/AB_ScrewGenerator/main/_images/ImportLocation.png)
+* Add a Fill layer, brushes work too, but for now we'll use a fill
+* Drag the screw generator onto the "material mode" for your layer
+![image info](https://raw.githubusercontent.com/DavidHGillen/AB_ScrewGenerator/main/_images/MaterialLocation.png)
+* For this layer set the AO, Height, and Normal blending to "Normal" mode. The screw should replace what's below it, not mix into it
+* Set the generator's settings as desired, it often helps to start from one of the presets
+* Adjust the projection of the fill layer as desired so your screw is in place
+* Repeat as desired
 
-## Features / Tutorials
-TBD
+## Features
+* Two surface toggle for different texturing for inset vs head
+* Outer stylization for including insets and other details with the screw
+* All layers appropriately masked to make usage simple in complex setups
+* Extra grayscale outputs generated for custom work including head and inset shape
+* Image inputs for colour, roughness, and metalness so users can choose the type of metal to taste
+* Define the generator's output as an anchor layer and update your whole model with changes at once
+
+# Cheatsheet
+While this isn't all the controls it should give you an idea of how they work with each other to create the final result.
+![image info](https://raw.githubusercontent.com/DavidHGillen/AB_ScrewGenerator/main/_images/ScrewGenerator_Cheatsheet.png)
