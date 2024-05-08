@@ -13,6 +13,7 @@ David "Angry Beaver" Gillen
 ## How to install as a user
 Download the .sbar file from this website, [a handy link](https://github.com/DavidHGillen/AB_ScrewGenerator/blob/main/AB_ScrewGeneratorPlus.sbsar):
 ![image info](https://raw.githubusercontent.com/DavidHGillen/AB_ScrewGenerator/main/_images/DownloadLocation.png)
+
 Once you have the .sbar you're good to go. Just load it into whatever will take it. Everything else is for development or documentation of the tool and isn't needed.
 If you don't have any Substance applications then you might be able to use it with a Substance plugin for a game engine like Unreal or Unity.
 
