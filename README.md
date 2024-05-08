@@ -1,5 +1,6 @@
 # AB_ScrewGenerator
 Screw, bolt, and general connector decal generation utility for use with Substance Designer/Painter.
+![image info](https://raw.githubusercontent.com/DavidHGillen/AB_ScrewGenerator/main/_images/Banner.png)
 
 ## About
 When working on a model I needed to add some screws at key points to round out the detailing; however, I was unimpressed with the options I found for free. I decided to write a general purpose utility anyone could use. While far from perfect, I added features that would allow all the types of connectors I could think of. From Self tapping woodscrews, to PC Hard Drive screws, to large industrial bolts, and ended up with something that could even make passable sci-fi nonsense.

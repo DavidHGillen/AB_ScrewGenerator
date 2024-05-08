@@ -1,3 +1,5 @@
 /src/.autosave
 /_images/*.afdesign~lock~
 /src/*.painter_lock
+/src/*autosave_*.spp
+/src/*.blend1
