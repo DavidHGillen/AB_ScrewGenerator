@@ -11,14 +11,16 @@ David "Angry Beaver" Gillen
 # Usage
 
 ## How to install as a user
-Grab the .sbar file and import it to your substance application. I hope to do some stuff with releases and the like, but this is an initial commit.
+Download the .sbar file from this website, [a handy link](https://github.com/DavidHGillen/AB_ScrewGenerator/blob/main/AB_ScrewGeneratorPlus.sbsar):
+![image info](https://raw.githubusercontent.com/DavidHGillen/AB_ScrewGenerator/main/_images/DownloadLocation.png)
+Once you have the .sbar you're good to go. Just load it into whatever will take it. Everything else is for development or documentation of the tool and isn't needed.
 If you don't have any Substance applications then you might be able to use it with a Substance plugin for a game engine like Unreal or Unity.
 
-## Quick How-to
+## Quick Substance Painter How to use
 * Open your Substance Painter project
 * Import the new resource to your project/session/library
 ![image info](https://raw.githubusercontent.com/DavidHGillen/AB_ScrewGenerator/main/_images/ImportLocation.png)
-* Add a Fill layer, brushes work too, but for now we'll use a fill
+* Add a Fill layer, brushes and more work too, but for now we'll use a fill
 * Drag the screw generator onto the "material mode" for your layer
 ![image info](https://raw.githubusercontent.com/DavidHGillen/AB_ScrewGenerator/main/_images/MaterialLocation.png)
 * For this layer set the AO, Height, and Normal blending to "Normal" mode. The screw should replace what's below it, not mix into it
